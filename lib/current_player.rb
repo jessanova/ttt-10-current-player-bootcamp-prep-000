@@ -9,5 +9,5 @@ def current_player(board)
 end
 
 def blank?(x)
-  (x==" ") || (x.to_s.empty?) || (x.nil?) ) ? true : false
+  ( (x==" ") || (x.to_s.empty?) || (x.nil?) ) ? true : false
 end

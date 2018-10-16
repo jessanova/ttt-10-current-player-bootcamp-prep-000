@@ -7,5 +7,5 @@ def current_player
 end
 
 def valid?(x)
-  if( (x==" ") || (x.to_s.empty?) || () )
+  (x==" ") || (x.to_s.empty?) || (x.nil?) )
 end

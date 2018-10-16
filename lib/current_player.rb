@@ -1,6 +1,7 @@
 def turn_count(board)
   turn = 0
   board.each{|place| blank?(place) ? : turn+=1
+  turn
 end
 
 def current_player

@@ -1,11 +1,11 @@
 def turn_count(board)
   turn = 0
-  board.each{|place| blank?(place) ? : turn+=1
+  board.each{|place| blank?(place) ? : turn+=1}
   turn
 end
 
-def current_player
-  
+def current_player(board)
+  turn_count(board).even? ? "X" : "O"
 end
 
 def blank?(x)
